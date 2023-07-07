@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-replication-policies.html 
 keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, disaster recovery, DR 
-summary: Sie können Daten zwischen BlueXP-Arbeitsumgebungen replizieren. Sie können eine einmalige Datenreplizierung zum Verschieben von Daten in die und aus der Cloud oder einen wiederkehrenden Zeitplan für Disaster Recovery oder langfristige Aufbewahrung wählen. 
+summary: Möglicherweise benötigen Sie Hilfe bei der Auswahl einer Replizierungsrichtlinie, wenn Sie die Datenreplizierung in BlueXP einrichten. Eine Replizierungsrichtlinie definiert, wie das Storage-System Daten von einem Quell-Volume auf ein Ziel-Volume repliziert. 
 ---
 = Weitere Informationen zu Replizierungsrichtlinien
 :hardbreaks:
