@@ -106,7 +106,7 @@ Wenn das Ziel ein ONTAP-Cluster ist, müssen Sie auch die Ziel-Storage-VM angebe
 +
 Sie sollten die Transferrate begrenzen. Eine unbegrenzte Rate kann sich negativ auf die Leistung anderer Anwendungen auswirken, und es kann sich auf Ihre Internetleistung auswirken.
 
-. *Replikationsrichtlinie*: Wählen Sie eine Standardrichtlinie oder klicken Sie auf *zusätzliche Richtlinien* und wählen Sie dann eine der erweiterten Richtlinien aus.
+. *Replikationsrichtlinie*: Wählen Sie eine Standardrichtlinie aus oder wählen Sie *zusätzliche Richtlinien* aus und wählen Sie dann eine der erweiterten Richtlinien aus.
 +
 Hilfe erhalten Sie unter: link:concept-replication-policies.html["Weitere Informationen zu Replizierungsrichtlinien"].
 
@@ -117,7 +117,7 @@ Wenn Sie eine benutzerdefinierte Backup- (SnapVault-) Policy wählen, müssen di
 +
 Es stehen mehrere Standardzeitpläne zur Verfügung. Wenn Sie einen anderen Zeitplan möchten, müssen Sie mithilfe von System Manager einen neuen Zeitplan auf dem Cluster _Destination_ erstellen.
 
-. *Review*: Überprüfen Sie Ihre Auswahl und klicken Sie auf *Go*.
+. *Review*: Überprüfen Sie Ihre Auswahl und wählen Sie *Go*.
 
 
 .Ergebnis

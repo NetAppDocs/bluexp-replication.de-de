@@ -23,7 +23,7 @@ Nachdem Sie die Datenreplizierung zwischen zwei Systemen eingerichtet haben, kö
 
 NOTE: Wenn der Status einer Beziehung inaktiv ist und der Spiegelungsstatus nicht initialisiert ist, müssen Sie die Beziehung vom Zielsystem initialisieren, damit die Datenreplizierung gemäß dem definierten Zeitplan ausgeführt werden kann. Sie können die Beziehung mit System Manager oder der Befehlszeilenschnittstelle (CLI) initialisieren. Diese Zustände können angezeigt werden, wenn das Zielsystem ausfällt und dann wieder online geht.
 
-. Klicken Sie auf das Aktionsmenü für eine Volume-Beziehung und wählen Sie eine der verfügbaren Aktionen aus.
+. Wählen Sie das Aktivitätsmenü für eine Volume-Beziehung aus, und wählen Sie eine der verfügbaren Aktionen aus.
 +
 image:screenshot_replication_managing.gif["Screenshot: Zeigt die Liste der Aktionen an, die auf der Seite \"Replication Status\" verfügbar sind."]
 
