@@ -2,7 +2,6 @@
 <blocks>
   <block id="745cc81e54713a1702ada65f4b222bce" category="summary">Sie können Daten zwischen den Arbeitsumgebungen von ONTAP replizieren, indem Sie sich für eine einmalige Datenreplizierung für Datentransfers oder einen wiederkehrenden Zeitplan für Disaster Recovery oder langfristige Aufbewahrung entscheiden. Sie können beispielsweise die Datenreplizierung eines lokalen ONTAP-Systems auf Cloud Volumes ONTAP für Disaster Recovery einrichten.</block>
   <block id="aa03d16eacb954c7af08d5001cd67507" category="doc">Richten Sie die Datenreplizierung ein</block>
-  <block id="992753e7f234853a9e0f96d1ff637271" category="section-title">Anforderungen an die Datenreplizierung</block>
   <block id="3f5c98f2da3fd65fbbfa955b13a433ab" category="paragraph">Bevor Sie die Daten replizieren können, sollten Sie bestätigen, dass bestimmte Anforderungen für Cloud Volumes ONTAP, On-Premises-ONTAP-Cluster oder Amazon FSX für ONTAP erfüllt werden.</block>
   <block id="8e7eaac4ef6ddba0d9f93228ce3ac6e7" category="list-text">Arbeitsumgebungen</block>
   <block id="4afa74830ae584f2b792dfe5b6c79ccc" category="list-text">Wenn dies noch nicht geschehen ist, müssen Sie in der Datenreplizierungsbeziehung die Arbeitsumgebungen für Quelle und Ziel erstellen.</block>
@@ -29,7 +28,6 @@
   <block id="4f473a2a941d4fd7b4a68e3cd98e934c" category="list-text">Spezifische Anforderungen für Amazon FSX für ONTAP</block>
   <block id="0b2859515841917b8dcb93767366e15a" category="list-text">Falls Cloud Volumes ONTAP Teil der Beziehung ist, stellen Sie die Konnektivität zwischen VPCs durch die Aktivierung von VPC-Peering oder die Verwendung eines Transit-Gateways sicher.</block>
   <block id="7cdb830daf27295ef13d47b3f05f431f" category="list-text">Wenn ein On-Premises-ONTAP-Cluster Teil der Beziehung ist, stellen Sie über eine Direct-Connect- oder VPN-Verbindung die Konnektivität zwischen dem On-Premises-Netzwerk und der AWS VPC sicher.</block>
-  <block id="58e046b3f4ec304e4456cda8151a574b" category="section-title">Replizierung von Daten zwischen Systemen</block>
   <block id="ab180709f75f8b8d74709444b839ccd3" category="paragraph">Sie können Daten replizieren, indem Sie eine einmalige Datenreplizierung auswählen, die Sie beim Verschieben von Daten in die und aus der Cloud oder bei einem wiederkehrenden Zeitplan unterstützen kann. Dies hilft bei Disaster Recovery oder langfristiger Aufbewahrung.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Schritte</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">Wählen Sie im Navigationsmenü die Option *Storage &gt; Canvas* aus.</block>
@@ -53,7 +51,6 @@
   <block id="d3b2b050bb9494cae757b48c9e54e869" category="list-text">*Zeitplan*: Wählen Sie eine einmalige Kopie oder einen wiederkehrenden Zeitplan.</block>
   <block id="eab21f14d3f6250b2de779be87b8404e" category="paragraph">Es stehen mehrere Standardzeitpläne zur Verfügung. Wenn Sie einen anderen Zeitplan möchten, müssen Sie mithilfe von System Manager einen neuen Zeitplan auf dem Cluster _Destination_ erstellen.</block>
   <block id="30f8f8912c844cee545e88597d12bbab" category="summary">Nachdem Sie die Datenreplizierung zwischen zwei Systemen eingerichtet haben, können Sie den Zeitplan für die Datenreplizierung und die Beziehung von BlueXP verwalten.</block>
-  <block id="2e4ca84ff13f65389599985c5d2a9f08" category="doc">Managen von Zeitplänen und Beziehungen</block>
   <block id="3b5a034beecbb1a2d60171dfe195f2df" category="list-text">Wählen Sie im Navigationsmenü die Option *Schutz &gt; Replikation*.</block>
   <block id="775f5846d28de12857c9c89ae5d4a6e1" category="list-text">Überprüfen Sie den Status der Datenreplizierungsbeziehungen, um sicherzustellen, dass sie in Ordnung sind.</block>
   <block id="384cf3526eba01b7701f7fde08ba751e" category="admonition">Wenn der Status einer Beziehung inaktiv ist und der Spiegelungsstatus nicht initialisiert ist, müssen Sie die Beziehung vom Zielsystem initialisieren, damit die Datenreplizierung gemäß dem definierten Zeitplan ausgeführt werden kann. Sie können die Beziehung mit System Manager oder der Befehlszeilenschnittstelle (CLI) initialisieren. Diese Zustände können angezeigt werden, wenn das Zielsystem ausfällt und dann wieder online geht.</block>
@@ -228,9 +225,6 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Versionshinweise</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Los geht's</block>
   <block id="c27a58445f6be9881526a37e46bb7d26" category="sidebar">Management der Datenreplizierung</block>
-  <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">Konzepte</block>
-  <block id="fa26829830efe73376071e3b30f66d6a" category="sidebar">Replizierungsrichtlinien</block>
-  <block id="9f02509e5496e861df4c341dba05386e" category="sidebar">Backup-Richtlinien</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Wissen und Support</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs Community</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp Community</block>
@@ -373,4 +367,9 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Unterstützung für Fileservices von Cloud-Providern</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Technischen Support zu Fileservices von Cloud-Providern, zu seiner Infrastruktur oder zu beliebigen Lösungen, die den Service verwenden, finden Sie im Abschnitt „Hilfe erhalten“ in der BlueXP Dokumentation zu diesem Produkt.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Wenn Sie technischen Support für BlueXP und seine Storage-Lösungen und -Services erhalten möchten, nutzen Sie die unten beschriebenen Support-Optionen.</block>
+  <block id="46ebfd1e0393caa0f34b574489afb56f" category="section-title">Schritt: Überprüfen Sie die Anforderungen an die Datenreplizierung</block>
+  <block id="94d63941f5733e2475f76dcc24cbaab4" category="section-title">Schritt 2: Daten zwischen Systemen replizieren</block>
+  <block id="30926cdd94e56dd228449e15c0e4474c" category="doc">Weitere Informationen zu Backup-Richtlinien</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Was ist neu</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="sidebar">Weitere Informationen .</block>
 </blocks>

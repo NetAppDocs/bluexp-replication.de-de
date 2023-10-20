@@ -4,7 +4,7 @@ permalink: concept-backup-policies.html
 keywords: snapvault, archive, archiving, retention 
 summary: Im Gegensatz zu Mirror-Richtlinien werden bei Backup SnapVault-Richtlinien spezifische Snapshot Kopien auf ein Ziel-Volume repliziert. Es ist wichtig zu verstehen, wie Backup-Richtlinien funktionieren, wenn Sie Ihre eigenen Richtlinien anstelle der Standardrichtlinien verwenden möchten. 
 ---
-= Weitere Informationen zu Replizierungsrichtlinien
+= Weitere Informationen zu Backup-Richtlinien
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -18,7 +18,7 @@ Sie können Daten zwischen den Arbeitsumgebungen von ONTAP replizieren, indem Si
 
 
 
-== Anforderungen an die Datenreplizierung
+== Schritt: Überprüfen Sie die Anforderungen an die Datenreplizierung
 
 Bevor Sie die Daten replizieren können, sollten Sie bestätigen, dass bestimmte Anforderungen für Cloud Volumes ONTAP, On-Premises-ONTAP-Cluster oder Amazon FSX für ONTAP erfüllt werden.
 
@@ -76,7 +76,7 @@ Spezifische Anforderungen für Amazon FSX für ONTAP::
 
 
 
-== Replizierung von Daten zwischen Systemen
+== Schritt 2: Daten zwischen Systemen replizieren
 
 Sie können Daten replizieren, indem Sie eine einmalige Datenreplizierung auswählen, die Sie beim Verschieben von Daten in die und aus der Cloud oder bei einem wiederkehrenden Zeitplan unterstützen kann. Dies hilft bei Disaster Recovery oder langfristiger Aufbewahrung.
 

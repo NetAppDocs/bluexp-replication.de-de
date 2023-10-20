@@ -14,7 +14,9 @@ sidebar:
   - title: BlueXP Replizierungsdokumente
     url: "/index.html"
   - title: Versionshinweise
-    url: "/whats-new.html"
+    entries:
+    - title: Was ist neu
+      url: "/whats-new.html"
   - title: Los geht's
     entries:
     - title: Erfahren Sie mehr zur BlueXP Replizierung
@@ -23,11 +25,11 @@ sidebar:
       url: "/task-replicating-data.html"
   - title: Management der Datenreplizierung
     url: "/task-managing-replication.html"
-  - title: Konzepte
+  - title: Weitere Informationen .
     entries:
-    - title: Replizierungsrichtlinien
+    - title: Weitere Informationen zu Replizierungsrichtlinien
       url: "/concept-replication-policies.html"
-    - title: Backup-Richtlinien
+    - title: Weitere Informationen zu Backup-Richtlinien
       url: "/concept-backup-policies.html"
   - title: Wissen und Support
     entries:
