@@ -57,7 +57,7 @@ Spezifische Anforderungen für ONTAP Cluster::
 * Wenn sich der Cluster an Ihrem Standort befindet, sollten Sie über eine Verbindung von Ihrem Unternehmensnetzwerk zu Ihrem virtuellen Netzwerk in der Cloud verfügen. Hierbei handelt es sich in der Regel um eine VPN-Verbindung.
 * ONTAP Cluster müssen zusätzliche Subnetz-, Port-, Firewall- und Cluster-Anforderungen erfüllen.
 +
-https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_for_cluster_peering.html["Anzeigen von Voraussetzungen für Cluster-Peering in der ONTAP-Dokumentation"^]
+https://docs.netapp.com/us-en/ontap/peering/prerequisites-cluster-peering-reference.html#connectivity-requirements["Anzeigen von Voraussetzungen für Cluster-Peering in der ONTAP-Dokumentation"^]
 
 
 
