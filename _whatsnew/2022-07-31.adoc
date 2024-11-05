@@ -1,0 +1,15 @@
+= FSX für ONTAP als Datenquelle
+:allow-uri-read: 
+
+
+
+
+=== FSX für ONTAP als Datenquelle
+
+Sie können jetzt Daten von einem Amazon FSX für ONTAP-Dateisystem auf die folgenden Ziele replizieren:
+
+* Amazon FSX für ONTAP
+* On-Premises-ONTAP-Cluster
+
+
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Hier erfahren Sie, wie Sie Datenreplizierung einrichten"].
