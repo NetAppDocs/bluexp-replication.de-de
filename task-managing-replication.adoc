@@ -64,7 +64,7 @@ Erfahren Sie, wie Sie eine umgekehrte Resynchronisierung durchführen, die die D
 | Aktualisierung | Startet einen inkrementellen Transfer, um das Zielvolume zu aktualisieren. 
 
 
-| Löschen | Löscht die Data-Protection-Beziehung zwischen Quell- und Ziel-Volumes, d. H., die Datenreplizierung findet nicht mehr zwischen den Volumes statt. Durch diese Aktion wird das Ziel-Volume nicht für den Datenzugriff aktiviert. Durch diese Aktion werden auch die Cluster-Peer-Beziehung und die SVM-Peer-Beziehung (Storage VM) gelöscht, falls keine anderen Datensicherungsbeziehungen zwischen den Systemen bestehen. 
+| Löschen | Löscht die Data-Protection-Beziehung zwischen Quell- und Ziel-Volumes, d. H., die Datenreplizierung findet nicht mehr zwischen den Volumes statt. Durch diese Aktion wird das Ziel-Volume nicht für den Datenzugriff aktiviert. 
 |===
 
 
